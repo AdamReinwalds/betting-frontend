@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import ScrapeList from './components/ScrapeList';
 import Navbar from './components/Navbar';
 

@@ -9,7 +9,7 @@ function Match({ matchData }) {
     <div className="box">
       <div className="team-names">
         <h3>One team</h3>
-        <h3></h3>
+        <h3> </h3>
         <h3>The other team</h3>
       </div>
       <div className="match-odds">
@@ -19,7 +19,7 @@ function Match({ matchData }) {
       </div>
       <div className="links">
         <a href="hltv.org">Bet on team</a>
-        <a href=""></a>
+        <a href=" "> </a>
         <a href="www.rekab.nu">Bet on team</a>
       </div>
     </div>
