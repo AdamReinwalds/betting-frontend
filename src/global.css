@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #4995c4;
+}
+
+.header {
+  text-align: center;
+  padding: 60px;
+  color: #ffffff;
+  max-width: 64%;
+  margin-left: 18%;
+  padding: 60px;
+  padding-bottom: 20px;
+}
+
+.header > h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.header > span {
+  font-size: 30px;
+}
+
+.header > p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+} 
+
+.team-names {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.match-odds, .links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.navbar1 {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background-color: #1f7aab;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo{
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: 800;
+  -webkit-text-stroke: 0.1px #5ab61c;
+  color: #2F2F2F;
+}
+
+img {
+  height: 60px;
+  padding-left: 30px;
+}
+
+
+.nav-links > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+a:hover {
+  color: #4995c4;
+  text-decoration: none;
+}
+
+@media (max-width: 1050px) {
+  .header { 
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
