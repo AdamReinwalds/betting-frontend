@@ -15,7 +15,7 @@ function Navbar() {
         <a className="a-nav a1" href="/"> <FaBeer/> Home</a>
         <a className="a-nav a2" href="#matches"> <GiMatchbox/> Matches</a>
         <a className="a-nav a3" href="#contact"> <IoMdContacts/> Contact</a>
-        <a className="a-nav a4" href="#about"> <AiOutlineInfoCircle/>About</a>
+        <a className="a-nav a4" href="#about"> <AiOutlineInfoCircle/> About</a>
       </div>
     </div>
   );

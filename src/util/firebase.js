@@ -1,11 +1,10 @@
 import firebase from "firebase";
 
-
 var firebaseConfig = {
     apiKey: "AIzaSyBWlyMYtTzlYoeN2Bri9mPROHTH7Q6eOYA",
     authDomain: "scrape-853ad.firebaseapp.com",
     databaseURL: "https://scrape-853ad-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "scrape-853ad",
+    projectId: "scrape-853ad-default-rtdb",
     storageBucket: "scrape-853ad.appspot.com",
     messagingSenderId: "493747730370",
     appId: "1:493747730370:web:4db57f9f448c4521bf885b",
