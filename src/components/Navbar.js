@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBeer } from 'react-icons/fa';
 import { GiMatchbox } from 'react-icons/gi';
 import { IoMdContacts } from 'react-icons/io';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar1") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar1";
+  }
+}
+
 function Navbar() {
+  const [clicked, setClicked] = useState(false)
   return (
-    <div className="navbar1">
+    <div className="navbar1" id="myTopNav">
       <a className="navbar-logo" href="/">
         <img src="betsport.png" alt="bet-sport"/>
         <p className="name">BetSport</p>
@@ -16,6 +26,10 @@ function Navbar() {
         <a className="a-nav a2" href="#matches"> <GiMatchbox/> Matches</a>
         <a className="a-nav a3" href="#contact"> <IoMdContacts/> Contact</a>
         <a className="a-nav a4" href="#about"> <AiOutlineInfoCircle/> About</a>
+        <span className="menu" onClick = {()=> setClicked(!clicked)}>
+          <i className="fa fa-bars"></i>
+        </span>
+  {clicked && <div>aids</div>}
       </div>
     </div>
   );

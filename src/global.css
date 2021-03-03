@@ -86,7 +86,6 @@ img {
   padding-left: 30px;
 }
 
-
 .nav-links > a {
   color: #ffffff;
   font-size: 20px;
@@ -99,9 +98,41 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 1050px) {
+.menu {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+@media (max-width: 1000px) {
   .header { 
-    max-width: 100%;
-    margin-left: 0;
+    max-width: 80%;
+    margin-left: 10%;
+  }
+  .a-nav {
+    display: none;
+  }
+  .fa-bars {
+    display: flex;
+    margin-top: 50%;
+  }
+  .box {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
+
+@media (max-width: 500px) {
+  .header {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+  }
+}
+  
+
