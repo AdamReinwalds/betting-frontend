@@ -4,15 +4,6 @@ import { GiMatchbox } from 'react-icons/gi';
 import { IoMdContacts } from 'react-icons/io';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "navbar1") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar1";
-  }
-}
-
 function Navbar() {
   const [clicked, setClicked] = useState(false)
   return (
